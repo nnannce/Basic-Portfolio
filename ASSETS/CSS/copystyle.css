@@ -222,7 +222,7 @@ input[type=submit]{
 	cursor: pointer;
 }
 
-/*large*/
+
 
 @media screen and (max-width: 980px) {
 
@@ -232,7 +232,7 @@ input[type=submit]{
 
 .main-container{
    		max-width:495px;
-   		width:100%;
+   		width:90%;
    		float: left;
    		position: relative;
    		
@@ -245,72 +245,51 @@ input[type=submit]{
     		}
 
 }
-/*medium*/ 
+/*medium*/ /*DONE DO NOT TOUCH*/ 
 
   @media screen and (max-width: 768px) {
-  .container{max-width: 768px;
-  	overflow: auto;}
+  .container{max-width: 768px;}
 
    .main-container{
    		max-width:768px;
    		width:90%;
    		position: relative;
    		float:none;
-   		margin-bottom: 30px;
-   		margin: auto;
+   		margin-right: 30px;
    		}
    	.sidebar{position:relative;
 			max-width: 768px;
     		width: 90%;
     		float: bottom;
-    		margin-top: 20px;
-    		float:none;
-    		margin-left: 38px;}
-
-.work{max-width: 768px;
-	overflow: auto;
-	float: none;
-	}
-.work:nth-child(even){
-	float: right;
-	overflow: auto;
-}
-
-}
-
+    		margin-left: 20px;
+    		float:none;}}
 
   
   
-  /*smallest*/ 
+  /*smallest*/ /*DONE DO NOT TOUCH*/ 
   
 
   @media screen and (max-width: 640px) {
   .container{
-    	max-width: 640px;
-    	overflow: auto;}
+    	max-width: 640px;}
    .main-container{
    		float: none;
    		position: relative;
    		width: 90%;
 		padding: 0 5 30px 5;
-		overflow:auto;
-
    		}
     #logo{
 
     	position: static;
-    	width:100%;
+    	width:640px;
     	text-align: center;}
 
     .sidebar{position:relative;
-			max-width: 640%;
+			max-width: 640px;
     		width: 90%;
     		float: bottom;
-    		margin:auto;
-    		margin-top: 40px;
+    		margin-left: 20px;
     		float:none;
-
-    
 
     		}
     nav{
@@ -321,14 +300,7 @@ input[type=submit]{
     	display:inline;}
     nav a{
     	display:inline-block;
-    	padding-right: 100px;	
-    	text-align: center;
-    	width: 25%;
+    	padding: 10px;	
+    	width: 190px;
 
-    }
-
-  .work{float:none;
-	position: relative;
-	width: 90%;
-  }
-}
+    }}
